@@ -1,27 +1,22 @@
 //
-//  aaaViewController.m
+//  dddViewController.m
 //  codeTest
 //
 //  Created by yangyang on 2020/8/10.
 //  Copyright © 2020 yangyang. All rights reserved.
 //
 
-#import "aaaViewController.h"
 #import "dddViewController.h"
-@interface aaaViewController ()
+
+@interface dddViewController ()
 
 @end
 
-@implementation aaaViewController
+@implementation dddViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-}
-- (IBAction)aaaa:(id)sender {
-    
-    dddViewController *vc = [dddViewController new];
-       [self presentViewController:vc animated:YES completion:nil];
 }
 
 /*

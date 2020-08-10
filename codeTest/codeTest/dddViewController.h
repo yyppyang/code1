@@ -1,5 +1,5 @@
 //
-//  aaaViewController.h
+//  dddViewController.h
 //  codeTest
 //
 //  Created by yangyang on 2020/8/10.
@@ -10,8 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface aaaViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *aaa;
+@interface dddViewController : UIViewController
 
 @end
 
