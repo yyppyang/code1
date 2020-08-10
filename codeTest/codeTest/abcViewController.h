@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  abcViewController.h
 //  codeTest
 //
 //  Created by yangyang on 2020/8/10.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *btn;
+NS_ASSUME_NONNULL_BEGIN
 
+@interface abcViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "aaaViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,5 +19,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)btna:(id)sender {
+    
+    aaaViewController *vc = [aaaViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end
