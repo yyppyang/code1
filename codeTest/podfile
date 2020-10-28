@@ -6,5 +6,5 @@ target 'codeTest' do
 #  use_frameworks!
 
 pod 'MBProgressHUD', '~> 1.0.0'
-pod 'MJRefresh'
+
 end
