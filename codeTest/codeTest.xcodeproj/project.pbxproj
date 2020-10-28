@@ -267,6 +267,7 @@
 				DD80038B24E0CFC4005608A9 /* Sources */,
 				DD80038C24E0CFC4005608A9 /* Frameworks */,
 				DD80038D24E0CFC4005608A9 /* Resources */,
+				BDD724E65AD491C918F18307 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,6 +386,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		BDD724E65AD491C918F18307 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codeTest/Pods-codeTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codeTest/Pods-codeTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codeTest/Pods-codeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EC8915B0109F684EF7157923 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
