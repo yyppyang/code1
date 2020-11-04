@@ -1,16 +1,22 @@
 PODS:
   - MJExtension (3.2.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - MJExtension
+  - YYKit
 
 SPEC REPOS:
   trunk:
     - MJExtension
+    - YYKit
 
 SPEC CHECKSUMS:
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 0cb9eec45fa2e5d1d47fd637a0a7460040736eeb
+PODFILE CHECKSUM: 03caf747075eba08c25233c26642effa03c3f704
 
 COCOAPODS: 1.9.3
